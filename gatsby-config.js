@@ -1,35 +1,24 @@
 module.exports = {
+  siteMetadata: {
+    title: "Cavarrio Carter",
+    author: "Cavarrio Carter",
+    description: "A website containing projects, work history, and other background information on Cavarrio Carter"
+  },
   plugins: [
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages/`,
-      },
-    },
+    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
-      siteMetadata: {
-        name: `Cavarrio Carter`,
-        short_name: `Cavarrio`,
-        start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#02aab0`,
-        display: `standalone`,
-        icon: 'src/images/favicon.ico',
+      options: {
+        name: 'gatsby-starter-default',
+        short_name: 'starter',
+        start_url: '/',
+        background_color: '#663399',
+        theme_color: '#663399',
+        display: 'minimal-ui',
+        icon: 'src/assets/images/cavarrio_icon.jpg', // This path is relative to the root of the site.
       },
     },
+    'gatsby-plugin-sass',
+    'gatsby-plugin-offline'
   ],
-};
+}
