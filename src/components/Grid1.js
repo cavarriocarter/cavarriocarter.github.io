@@ -15,6 +15,8 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
     backgroundColor: 'transparent',
   },
+  chart: {
+  }
 }));
 
 export default function FullWidthGrid() {
@@ -26,7 +28,7 @@ export default function FullWidthGrid() {
         <Grid item xs>
           <Paper className={classes.paper} elevation={3}>
             <h3>Industries Worked</h3>
-            <Chart />
+            <Chart className={classes.chart}/>
           </Paper>
         </Grid>
 

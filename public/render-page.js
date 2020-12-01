@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/home/cavarrio/development_main/my-gatsby-project/node_modules/@reach/router/index.js"), require("fs"), require("/home/cavarrio/development_main/my-gatsby-project/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("/home/cavarrio/development_main/cavarriocarter.github.io/node_modules/@reach/router/index.js"), require("fs"), require("/home/cavarrio/development_main/cavarriocarter.github.io/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/home/cavarrio/development_main/my-gatsby-project/node_modules/@reach/router/index.js", "fs", "/home/cavarrio/development_main/my-gatsby-project/node_modules/lodash/merge.js", "path", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["/home/cavarrio/development_main/cavarriocarter.github.io/node_modules/@reach/router/index.js", "fs", "/home/cavarrio/development_main/cavarriocarter.github.io/node_modules/lodash/merge.js", "path", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/home/cavarrio/development_main/my-gatsby-project/node_modules/@reach/router/index.js"), require("fs"), require("/home/cavarrio/development_main/my-gatsby-project/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("/home/cavarrio/development_main/cavarriocarter.github.io/node_modules/@reach/router/index.js"), require("fs"), require("/home/cavarrio/development_main/cavarriocarter.github.io/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["/home/cavarrio/development_main/my-gatsby-project/node_modules/@reach/router/index.js"], root["fs"], root["/home/cavarrio/development_main/my-gatsby-project/node_modules/lodash/merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
+		root["lib"] = factory(root["/home/cavarrio/development_main/cavarriocarter.github.io/node_modules/@reach/router/index.js"], root["fs"], root["/home/cavarrio/development_main/cavarriocarter.github.io/node_modules/lodash/merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -486,7 +486,7 @@ var testRequireError = function testRequireError(moduleName, err) {
 var Html;
 
 try {
-  Html = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../src/html'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+  Html = __webpack_require__(/*! ../src/html */ "./src/html.js");
 } catch (err) {
   if (testRequireError("../src/html", err)) {
     Html = __webpack_require__(/*! ./default-html */ "./.cache/default-html.js");
@@ -31066,10 +31066,54 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./src/html.js":
+/*!*********************!*\
+  !*** ./src/html.js ***!
+  \*********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return HTML; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function HTML(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("html", props.htmlAttributes, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("head", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    charSet: "utf-8"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    httpEquiv: "x-ua-compatible",
+    content: "ie=edge"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1, shrink-to-fit=yes"
+  }), props.headComponents), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", props.bodyAttributes, props.preBodyComponents, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    key: "body",
+    id: "___gatsby",
+    dangerouslySetInnerHTML: {
+      __html: props.body
+    }
+  }), props.postBodyComponents));
+}
+HTML.propTypes = {
+  htmlAttributes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
+  headComponents: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array,
+  bodyAttributes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
+  preBodyComponents: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array,
+  body: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  postBodyComponents: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array
+};
+
+/***/ }),
+
 /***/ "@reach/router":
-/*!********************************************************************************************************!*\
-  !*** external "/home/cavarrio/development_main/my-gatsby-project/node_modules/@reach/router/index.js" ***!
-  \********************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** external "/home/cavarrio/development_main/cavarriocarter.github.io/node_modules/@reach/router/index.js" ***!
+  \***************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -31089,9 +31133,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_fs__;
 /***/ }),
 
 /***/ "lodash/merge":
-/*!*************************************************************************************************!*\
-  !*** external "/home/cavarrio/development_main/my-gatsby-project/node_modules/lodash/merge.js" ***!
-  \*************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** external "/home/cavarrio/development_main/cavarriocarter.github.io/node_modules/lodash/merge.js" ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
