@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { PieChart, Pie, Sector } from 'recharts';
+import { PieChart, Pie, Sector, ResponsiveContainer } from 'recharts';
 import { Box, Center, Square, Circle } from "@chakra-ui/react"
 
 const data = [
@@ -73,22 +73,24 @@ export default class Example extends PureComponent {
 
   render() {
     return (
-        <Box overflow="hidden">
-          <PieChart width={400} height={400}>
+      <Center>
+        <ResponsiveContainer width={400} height={400}>
+          <PieChart>
             <Pie
               activeIndex={this.state.activeIndex}
               activeShape={renderActiveShape}
               data={data}
               cx={200}
               cy={200}
-              innerRadius={60}
+              innerRadius={65}
               outerRadius={80}
               fill="#8884d8"
               dataKey="value"
               onMouseEnter={this.onPieEnter}
               />
           </PieChart>
-        </Box>
+        </ResponsiveContainer>
+      </Center>
     );
   }
 }
