@@ -5,6 +5,9 @@ import Grid from '@material-ui/core/Grid';
 import Chart from '../components/PieChart1'
 import Chart2 from '../components/PieChart2'
 
+import { Box, Center } from "@chakra-ui/react"
+
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -28,14 +31,22 @@ export default function FullWidthGrid() {
         <Grid item xs>
           <Paper className={classes.paper} elevation={3}>
             <h3>Industries Worked</h3>
-            <Chart className={classes.chart}/>
+            <Box overflow="hidden">
+              <Center>
+                <Chart className={classes.chart}/>
+              </Center>
+            </Box>
           </Paper>
         </Grid>
 
         <Grid item xs>
           <Paper className={classes.paper} elevation={3}>
             <h3>Job Functions/Duties</h3>
-              <Chart2 />
+              <Box overflow="hidden">
+                <Center>
+                  <Chart2 />
+                </Center>
+              </Box>
             </Paper>
         </Grid>
       </Grid>

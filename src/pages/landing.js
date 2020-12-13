@@ -15,7 +15,7 @@ import pic10 from '../assets/images/pic10.jpg'
 import Chart from '../components/PieChart1'
 
 import { Image } from "@chakra-ui/react"
-import { Box } from "@chakra-ui/react"
+import { Box, Center } from "@chakra-ui/react"
 
 
 const Landing = (props) => (
@@ -44,16 +44,13 @@ const Landing = (props) => (
             <section id="two" className="spotlights">
                 <section>
                     <Link to="/generic" className="image">
-                      <Box>
+                      <Center>
                         <Image
                           src={pic08}
                           borderRadius="full"
                           boxSize="sm"
-                          boxShadow="Outline"
-                          align="center"
-                          rounded="md"
                           alt="" />
-                      </Box>
+                      </Center>
                     </Link>
                     <div className="content">
                         <div className="inner">
