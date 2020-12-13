@@ -24,9 +24,9 @@ const Landing = (props) => (
                         <h2>Quick Overview</h2>
                     </header>
                       <div className="box">
-                        <p>I began my journey in programming in a effort to determine better ways to maximize efficiency, eliminate redundant work,
+                        <p>I began my journey in programming in an effort to find better ways to maximize efficiency, eliminate redundant work,
                         and automate standard processes. Over the years, I have gained a deep understanding of both technology and business operations,
-                      afforing me the opportunity to combine my knowledge in an effort to use technology in the most effective manner possible to
+                      and my experiences have provided valuable insight for using technology in the most effective manner possible to
                     to accomplish organizational goals.</p>
                       </div>
                 </div>

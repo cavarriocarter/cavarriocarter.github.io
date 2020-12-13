@@ -1,5 +1,7 @@
 import React, { PureComponent } from 'react';
 import { PieChart, Pie, Sector } from 'recharts';
+import { Center, Square, Circle } from "@chakra-ui/react"
+
 
 const data = [
   { name: 'Technical', value: 400 },
@@ -72,6 +74,7 @@ export default class Example extends PureComponent {
 
   render() {
     return (
+      <Center>
       <PieChart width={400} height={400}>
         <Pie
           activeIndex={this.state.activeIndex}
@@ -86,6 +89,7 @@ export default class Example extends PureComponent {
           onMouseEnter={this.onPieEnter}
         />
       </PieChart>
+    </Center>
     );
   }
 }
