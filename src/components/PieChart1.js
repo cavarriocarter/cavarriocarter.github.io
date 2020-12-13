@@ -74,6 +74,7 @@ export default class Example extends PureComponent {
   render() {
     return (
       <Center>
+        <Box overflow="hidden">
         <ResponsiveContainer width={400} height={400}>
           <PieChart>
             <Pie
@@ -87,9 +88,11 @@ export default class Example extends PureComponent {
               fill="#8884d8"
               dataKey="value"
               onMouseEnter={this.onPieEnter}
+              overflow="hidden"
               />
           </PieChart>
         </ResponsiveContainer>
+      </Box>
       </Center>
     );
   }

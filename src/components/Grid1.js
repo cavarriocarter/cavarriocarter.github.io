@@ -5,6 +5,9 @@ import Grid from '@material-ui/core/Grid';
 import Chart from '../components/PieChart1'
 import Chart2 from '../components/PieChart2'
 
+import Doughnut from '../components/Doughnut1'
+import Doughnut2 from '../components/Doughnut2'
+
 import { Box, Center } from "@chakra-ui/react"
 
 
@@ -33,7 +36,7 @@ export default function FullWidthGrid() {
             <h3>Industries Worked</h3>
             <Box overflow="hidden">
               <Center>
-                <Chart className={classes.chart}/>
+                <Doughnut/>
               </Center>
             </Box>
           </Paper>
@@ -44,7 +47,7 @@ export default function FullWidthGrid() {
             <h3>Job Functions/Duties</h3>
               <Box overflow="hidden">
                 <Center>
-                  <Chart2 />
+                  <Doughnut2 />
                 </Center>
               </Box>
             </Paper>
