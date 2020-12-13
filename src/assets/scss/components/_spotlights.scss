@@ -18,18 +18,21 @@
 			@include vendor('flex-direction', 'row');
 			background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
 
+			/*to center image + round: changed display to flex; img width to 80; img border radius to 50*/
+
 			> .image {
 				background-position: center center;
 				background-size: cover;
-				border-radius: 0;
-				display: block;
+				border-radius: 0%;
+				display: flex;
 				position: relative;
 				width: 30%;
 
+
 				img {
-					border-radius: 0;
+					border-radius: 0%;
 					display: block;
-					width: 100%;
+					width: 80%;
 				}
 
 				&:before {

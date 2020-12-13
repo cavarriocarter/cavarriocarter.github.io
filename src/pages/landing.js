@@ -8,9 +8,9 @@ import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 import Grid from '../components/Grid1'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import pic08 from '../assets/images/ncr2.jpg'
+import pic09 from '../assets/images/entouch1.jpeg'
+import pic10 from '../assets/images/medecision1.jpeg'
 
 import Chart from '../components/PieChart1'
 
@@ -74,7 +74,13 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
+                      <Center>
+                        <Image
+                          src={pic09}
+                          borderRadius="full"
+                          boxSize="sm"
+                          alt="" />
+                      </Center>
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -100,7 +106,9 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
+                      <Center>
                         <img src={pic10} alt="" />
+                      </Center>
                     </Link>
                     <div className="content">
                         <div className="inner">
