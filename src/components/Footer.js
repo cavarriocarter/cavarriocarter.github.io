@@ -4,10 +4,10 @@ const Footer = (props) => (
     <footer id="footer">
         <div className="inner">
             <ul className="icons">
-                <li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
+                <li><a href="https://www.facebook.com/cavarrio.carter.development" target="_blank" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
                 <li><a href="#" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
-                <li><a href="#" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
-                <li><a href="#" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/cavarriocarter" target="_blank" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
+                <li><a href="https://www.linkedin.com/in/cavarrio-carter/" target="_blank" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
                 <li>&copy; Cavarrio Carter</li><li>Address: Dallas, TX 75150</li>

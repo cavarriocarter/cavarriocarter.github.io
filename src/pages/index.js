@@ -4,10 +4,10 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import pic01 from '../assets/images/experience.jpeg'
+import pic02 from '../assets/images/skills2.png'
+import pic03 from '../assets/images/code.jpeg'
+import pic04 from '../assets/images/interests9.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
@@ -38,21 +38,21 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Skills</h3>
-                                <p>Find out more about my favorite technologies</p>
+                                <p>Find out more about the technologies I have experience with</p>
                             </header>
                             <Link to="/landing2" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Projects</h3>
-                                <p>See my Code in Action</p>
+                                <p>See my code in action</p>
                             </header>
                             <Link to="/landing3" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>[Insert Title]</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Interests</h3>
+                                <p>Skills I would Like to develop further</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>

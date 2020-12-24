@@ -34,7 +34,7 @@ const Landing = (props) => (
                         <h2>Quick Overview</h2>
                     </header>
                     <div className="box">
-                        <p>I am a well-versed professional with experience in a variety of fields including law, software development, telecommunications, information technology, and energy management. In addition to my experience in corporate environments, I have also worked for several small to medium-sized companies. My experience has afforded me the opportunity to wear "many hats," resulting in the development of a wide range of skills in and effort to use technology in the best manner to accomplish organizational/departmental goals.</p>
+                        <p>I am a well-versed professional with experience in a variety of fields including telecommunications, information technology, and energy management. In addition to my experience in corporate environments, I have also worked for several small to medium-sized companies. My experience has afforded me the opportunity to develop a wide range of skills while using technology to accomplish organizational/departmental goals and maximize efficiency.</p>
                     </div>
                     <div>
                       <Grid />
