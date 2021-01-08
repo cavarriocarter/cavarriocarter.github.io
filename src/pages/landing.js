@@ -16,6 +16,7 @@ import Chart from '../components/PieChart1'
 
 import { Image } from "@chakra-ui/react"
 import { Box, Center } from "@chakra-ui/react"
+import {Rating} from 'semantic-ui-react'
 
 
 const Landing = (props) => (
@@ -61,13 +62,15 @@ const Landing = (props) => (
                                 <p>NCR Corporation is an American software company, managed and professional services, consulting and technology company that also makes self-service kiosks, point-of-sale terminals, automated teller machines, check processing systems, and barcode scanners.</p>
                             </div>
                             <ul className="alt">
-                              <li>Merchant/End-User Support</li>
-                              <li>Reporting: Review and Analysis</li>
-                              <li>SaaS and Technical Support</li>
-                              <li>JIRA</li>
+                              <li>Providing Support to End-Users of NCR's Products and Services</li>
+                              <li>Reporting: Review, Analysis, and Reconciliation</li>
+                              <li>Customer Support via Email and Inbound Calls</li>
+                              <li>SaaS Support for NCR's Payments Processing Services and Platforms</li>
+                              <li>User Account Management</li>
+                              <li>Ticketing and Escalations</li>
                             </ul>
                             <ul className="actions">
-                                <li><Link to="https://en.wikipedia.org/wiki/NCR_Corporation" className="button" target="_blank">Learn more</Link></li>
+                                <li><Link to="https://www.ncr.com/payments" className="button" target="_blank">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -94,6 +97,7 @@ const Landing = (props) => (
                                 <li>Remote Hardware Troubleshooting: IoT devices</li>
                                 <li>Technical Support</li>
                                 <li>Data Review & Analysis</li>
+                                <li>Customer Support via Email and Inbound Calls</li>
                                 <li>Managed Services - Customer/End-User Support</li>
                                 <li>Salesforce, Salesforce Administration, Lightning Design & Process/Workflow Automation</li>
                               </ul>
@@ -120,13 +124,14 @@ const Landing = (props) => (
                             </div>
                           <ul className="alt">
                             <li>SaaS & Technical Support</li>
+                            <li>Customer Support via Email and Inbound Calls</li>
                             <li>Ticketing and Escalations</li>
                             <li>Understanding of Development Cycle</li>
                             <li>Use/Development of Automation Scripts</li>
                             <li>JIRA</li>
                           </ul>
                             <ul className="actions">
-                                <li><Link to="https://www.linkedin.com/company/medecision/" className="button" target="_blank">Learn more</Link></li>
+                                <li><Link to="https://www.medecision.com/" className="button" target="_blank">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>

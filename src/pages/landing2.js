@@ -4,9 +4,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding2 from '../components/BannerLanding2'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import pic08 from '../assets/images/skills1.png'
+import pic09 from '../assets/images/skills4.png'
+import pic10 from '../assets/images/salesforce3.png'
+
+import {Image} from "@chakra-ui/react"
+import { Box, Center } from "@chakra-ui/react"
 
 const Landing = (props) => (
     <Layout>
@@ -34,22 +37,59 @@ const Landing = (props) => (
             <section id="two" className="spotlights">
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
+                      <Center>
+                        <Image
+                           src={pic08}
+                           borderRadius="full"
+                           boxSize="sm"
+                           alt=""/>
+                         </Center>
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
                                 <h3>Programming</h3>
                             </header>
-                            <div className="box">
-                              <p></p>
+                            <div className="table-wrapper">
+                                <table className="alt">
+                                    <thead>
+                                        <tr>
+                                            <th>Language/Framework</th>
+                                            <th>Usage</th>
+                                            <th>Skill Level</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Python</td>
+                                            <td>Ante turpis integer aliquet porttitor.</td>
+                                            <td>
+                                                <div class="ui star rating" data-rating="3"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>React</td>
+                                            <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                            <td>19.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gatsby</td>
+                                            <td> Morbi faucibus arcu accumsan lorem.</td>
+                                            <td>29.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>HTML/CSS</td>
+                                            <td>Vitae integer tempus condimentum.</td>
+                                            <td>19.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>SQL</td>
+                                            <td>Ante turpis integer aliquet porttitor.</td>
+                                            <td>29.99</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                            <ul className="alt">
-                              <li>Merchant/End-User Support</li>
-                              <li>Reporting: Review and Analysis</li>
-                              <li>SaaS and Technical Support</li>
-                              <li>JIRA</li>
-                            </ul>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
@@ -58,14 +98,59 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
+                      <Center>
+                        <Image
+                           src={pic09}
+                           borderRadius="full"
+                           boxSize="sm"
+                           alt=""/>
+                      </Center>
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Technical</h3>
+                                <h3>Technical Support</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <div className="table-wrapper">
+                                <table className="alt">
+                                    <thead>
+                                        <tr>
+                                            <th>Skill</th>
+                                            <th>Usage</th>
+                                            <th>Skill Level</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Item1</td>
+                                            <td>Ante turpis integer aliquet porttitor.</td>
+                                            <td>
+                                                <div class="ui star rating" data-rating="3"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Item2</td>
+                                            <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                            <td>19.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Item3</td>
+                                            <td> Morbi faucibus arcu accumsan lorem.</td>
+                                            <td>29.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Item4</td>
+                                            <td>Vitae integer tempus condimentum.</td>
+                                            <td>19.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Item5</td>
+                                            <td>Ante turpis integer aliquet porttitor.</td>
+                                            <td>29.99</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
@@ -74,14 +159,58 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+                      <Center>
+                        <img src={pic10}
+                          borderRadius="full"
+                          boxSize="sm"
+                          alt=""/>
+                      </Center>
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Salesforce</h3>
+                                <h3>Salesforce Administration</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <div className="table-wrapper">
+                                <table className="alt">
+                                    <thead>
+                                        <tr>
+                                            <th>Skill</th>
+                                            <th>Usage</th>
+                                            <th>Rating</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Apex</td>
+                                            <td>Ante turpis integer aliquet porttitor.</td>
+                                            <td>
+                                                <div class="ui star rating" data-rating="3"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Visualforce</td>
+                                            <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                            <td>19.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Process Builder</td>
+                                            <td> Morbi faucibus arcu accumsan lorem.</td>
+                                            <td>29.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lighting Design</td>
+                                            <td>Vitae integer tempus condimentum.</td>
+                                            <td>19.99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Flowbuilder</td>
+                                            <td>Ante turpis integer aliquet porttitor.</td>
+                                            <td>29.99</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
