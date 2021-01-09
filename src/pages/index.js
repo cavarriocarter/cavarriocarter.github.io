@@ -16,7 +16,7 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Cavarrio | Software Engineer"
+                    title="Cavarrio | IT Analyst"
                     meta={[
                         { name: 'description', content: 'Sample' },
                         { name: 'keywords', content: 'sample, something' },
@@ -38,7 +38,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Skills</h3>
-                                <p>Find out more about the technologies I have experience with</p>
+                                <p>Find out more about what I can do</p>
                             </header>
                             <Link to="/landing2" className="link primary"></Link>
                         </article>

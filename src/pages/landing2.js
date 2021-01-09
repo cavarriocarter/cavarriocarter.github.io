@@ -3,6 +3,9 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding2 from '../components/BannerLanding2'
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
+import Container from '@material-ui/core/Container';
 
 import pic08 from '../assets/images/skills1.png'
 import pic09 from '../assets/images/skills4.png'
@@ -10,6 +13,13 @@ import pic10 from '../assets/images/salesforce3.png'
 
 import {Image} from "@chakra-ui/react"
 import { Box, Center } from "@chakra-ui/react"
+
+import Rating2_5 from '../components/Rating2_5'
+import Rating3 from '../components/Rating3'
+import Rating3_5 from '../components/Rating3_5'
+import Rating4 from '../components/Rating4'
+import Rating4_5 from '../components/Rating4_5'
+
 
 const Landing = (props) => (
     <Layout>
@@ -54,45 +64,45 @@ const Landing = (props) => (
                                 <table className="alt">
                                     <thead>
                                         <tr>
-                                            <th>Language/Framework</th>
-                                            <th>Usage</th>
-                                            <th>Skill Level</th>
+                                            <th>Language/<br></br>Framework</th>
+                                            <th>Description</th>
+                                            <th>Rating</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>Python</td>
                                             <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td>
-                                                <div class="ui star rating" data-rating="3"></div>
-                                            </td>
+                                            <td><Rating3/></td>
                                         </tr>
                                         <tr>
                                             <td>React</td>
                                             <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                            <td>19.99</td>
+                                            <td><Rating4/></td>
                                         </tr>
                                         <tr>
                                             <td>Gatsby</td>
                                             <td> Morbi faucibus arcu accumsan lorem.</td>
-                                            <td>29.99</td>
+                                            <td><Rating4/></td>
                                         </tr>
                                         <tr>
                                             <td>HTML/CSS</td>
                                             <td>Vitae integer tempus condimentum.</td>
-                                            <td>19.99</td>
+                                            <td><Rating4/></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Javascript</td>
+                                            <td>Ante turpis integer aliquet porttitor.</td>
+                                            <td><Rating2_5/></td>
                                         </tr>
                                         <tr>
                                             <td>SQL</td>
                                             <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td>29.99</td>
+                                            <td><Rating2_5/></td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
                         </div>
                     </div>
                 </section>
@@ -116,44 +126,54 @@ const Landing = (props) => (
                                     <thead>
                                         <tr>
                                             <th>Skill</th>
-                                            <th>Usage</th>
+                                            <th>Description</th>
                                             <th>Skill Level</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Item1</td>
+                                            <td>Hardware/IoT Support</td>
                                             <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td>
-                                                <div class="ui star rating" data-rating="3"></div>
-                                            </td>
+                                            <td><Rating4_5/></td>
                                         </tr>
                                         <tr>
-                                            <td>Item2</td>
+                                            <td>Software Support (SaaS)</td>
                                             <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                            <td>19.99</td>
+                                            <td><Rating4/></td>
                                         </tr>
                                         <tr>
-                                            <td>Item3</td>
-                                            <td> Morbi faucibus arcu accumsan lorem.</td>
-                                            <td>29.99</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Item4</td>
+                                            <td>Windows</td>
                                             <td>Vitae integer tempus condimentum.</td>
-                                            <td>19.99</td>
+                                            <td><Rating3_5/></td>
                                         </tr>
                                         <tr>
-                                            <td>Item5</td>
+                                            <td>Linux</td>
+                                            <td>Vitae integer tempus condimentum.</td>
+                                            <td><Rating3_5/></td>
+                                        </tr>
+                                        <tr>
+                                            <td>User Account Management</td>
+                                            <td>Vitae integer tempus condimentum.</td>
+                                            <td><Rating3_5/></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Networking</td>
+                                            <td> Morbi faucibus arcu accumsan lorem.</td>
+                                            <td><Rating4_5/></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Databases</td>
+                                            <td>Vitae integer tempus condimentum.</td>
+                                            <td><Rating3/></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Audio/Video</td>
                                             <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td>29.99</td>
+                                            <td><Rating3_5/></td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
                         </div>
                     </div>
                 </section>
@@ -176,7 +196,7 @@ const Landing = (props) => (
                                     <thead>
                                         <tr>
                                             <th>Skill</th>
-                                            <th>Usage</th>
+                                            <th>Description</th>
                                             <th>Rating</th>
                                         </tr>
                                     </thead>
@@ -184,36 +204,31 @@ const Landing = (props) => (
                                         <tr>
                                             <td>Apex</td>
                                             <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td>
-                                                <div class="ui star rating" data-rating="3"></div>
-                                            </td>
+                                            <td><Rating3/></td>
                                         </tr>
                                         <tr>
                                             <td>Visualforce</td>
                                             <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                            <td>19.99</td>
+                                            <td><Rating3_5/></td>
                                         </tr>
                                         <tr>
                                             <td>Process Builder</td>
                                             <td> Morbi faucibus arcu accumsan lorem.</td>
-                                            <td>29.99</td>
+                                            <td><Rating4/></td>
                                         </tr>
                                         <tr>
                                             <td>Lighting Design</td>
                                             <td>Vitae integer tempus condimentum.</td>
-                                            <td>19.99</td>
+                                            <td><Rating4/></td>
                                         </tr>
                                         <tr>
                                             <td>Flowbuilder</td>
                                             <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td>29.99</td>
+                                            <td><Rating3/></td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
                         </div>
                     </div>
                 </section>
