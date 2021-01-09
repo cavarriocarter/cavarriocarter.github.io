@@ -3,9 +3,6 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding2 from '../components/BannerLanding2'
-import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-import Container from '@material-ui/core/Container';
 
 import pic08 from '../assets/images/skills1.png'
 import pic09 from '../assets/images/skills4.png'
