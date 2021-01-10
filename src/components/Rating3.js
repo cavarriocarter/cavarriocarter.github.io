@@ -10,7 +10,7 @@ export default function SimpleRating() {
     <div>
       <Box component="fieldset" mb={3} borderColor="transparent">
         <Typography component="legend"></Typography>
-        <Rating name="read-only" value={value} readOnly />
+        <Rating name="read-only" value={value} size="small" readOnly />
       </Box>
     </div>
   );

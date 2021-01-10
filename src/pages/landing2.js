@@ -9,7 +9,8 @@ import pic09 from '../assets/images/skills4.png'
 import pic10 from '../assets/images/salesforce3.png'
 
 import {Image} from "@chakra-ui/react"
-import { Box, Center } from "@chakra-ui/react"
+import { Box, Center, Container } from "@chakra-ui/react"
+import { Table, Thead, Tbody, Tr, Th, Td, TableCaption } from "@chakra-ui/react"
 
 import Rating2_5 from '../components/Rating2_5'
 import Rating3 from '../components/Rating3'
@@ -57,16 +58,16 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Programming</h3>
                             </header>
-                            <div className="table-wrapper">
-                                <table className="alt">
-                                    <thead>
-                                        <tr>
-                                            <th>Language/<br></br>Framework</th>
-                                            <th>Description</th>
-                                            <th>Rating</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
+                            <div>
+                                <Table variant="striped" colorScheme="teal">
+                                    <Thead>
+                                        <Tr>
+                                            <Th>Language/<br></br>Framework</Th>
+                                            <Th>Description</Th>
+                                            <Th>Rating</Th>
+                                        </Tr>
+                                    </Thead>
+                                    <Tbody>
                                         <tr>
                                             <td>Python</td>
                                             <td>Ante turpis integer aliquet porttitor.</td>
@@ -97,8 +98,8 @@ const Landing = (props) => (
                                             <td>Ante turpis integer aliquet porttitor.</td>
                                             <td><Rating2_5/></td>
                                         </tr>
-                                    </tbody>
-                                </table>
+                                    </Tbody>
+                                </Table>
                             </div>
                         </div>
                     </div>
@@ -119,7 +120,7 @@ const Landing = (props) => (
                                 <h3>Technical Support</h3>
                             </header>
                             <div className="table-wrapper">
-                                <table className="alt">
+                                <Table>
                                     <thead>
                                         <tr>
                                             <th>Skill</th>
@@ -169,7 +170,7 @@ const Landing = (props) => (
                                             <td><Rating3_5/></td>
                                         </tr>
                                     </tbody>
-                                </table>
+                                </Table>
                             </div>
                         </div>
                     </div>
@@ -189,7 +190,7 @@ const Landing = (props) => (
                                 <h3>Salesforce Administration</h3>
                             </header>
                             <div className="table-wrapper">
-                                <table className="alt">
+                                <Table>
                                     <thead>
                                         <tr>
                                             <th>Skill</th>
@@ -224,7 +225,7 @@ const Landing = (props) => (
                                             <td><Rating3/></td>
                                         </tr>
                                     </tbody>
-                                </table>
+                                </Table>
                             </div>
                         </div>
                     </div>
