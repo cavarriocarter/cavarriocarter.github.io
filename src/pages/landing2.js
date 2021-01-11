@@ -12,12 +12,6 @@ import {Image} from "@chakra-ui/react"
 import { Box, Center, Container } from "@chakra-ui/react"
 import { Table, Thead, Tbody, Tr, Th, Td, TableCaption } from "@chakra-ui/react"
 
-import Rating2_5 from '../components/Rating2_5'
-import Rating3 from '../components/Rating3'
-import Rating3_5 from '../components/Rating3_5'
-import Rating4 from '../components/Rating4'
-import Rating4_5 from '../components/Rating4_5'
-
 
 const Landing = (props) => (
     <Layout>
@@ -71,32 +65,32 @@ const Landing = (props) => (
                                         <tr>
                                             <td>Python</td>
                                             <td>Task Automation | Data Analysis & Visualization | Machine Learning</td>
-                                            <td><Rating3/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>React</td>
                                             <td>Javascript Library for Modern Web and Mobile App Development </td>
-                                            <td><Rating4/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Gatsby</td>
                                             <td></td>
-                                            <td><Rating4/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>HTML/CSS</td>
                                             <td>Vitae integer tempus condimentum.</td>
-                                            <td><Rating4/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Javascript</td>
                                             <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td><Rating2_5/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>SQL</td>
                                             <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td><Rating2_5/></td>
+                                            <td></td>
                                         </tr>
                                     </Tbody>
                                 </Table>
@@ -132,42 +126,42 @@ const Landing = (props) => (
                                         <tr>
                                             <td>Hardware/IoT Support</td>
                                             <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td><Rating4_5/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Software Support (SaaS)</td>
                                             <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                            <td><Rating4/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Windows</td>
                                             <td>Vitae integer tempus condimentum.</td>
-                                            <td><Rating3_5/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Linux</td>
                                             <td>Vitae integer tempus condimentum.</td>
-                                            <td><Rating3_5/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>User Account Management</td>
                                             <td>Vitae integer tempus condimentum.</td>
-                                            <td><Rating3_5/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Networking</td>
                                             <td> Morbi faucibus arcu accumsan lorem.</td>
-                                            <td><Rating4_5/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Databases</td>
                                             <td>Vitae integer tempus condimentum.</td>
-                                            <td><Rating3/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Audio/Video</td>
                                             <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td><Rating3_5/></td>
+                                            <td></td>
                                         </tr>
                                     </tbody>
                                 </Table>
@@ -202,27 +196,27 @@ const Landing = (props) => (
                                         <tr>
                                             <td>Apex</td>
                                             <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td><Rating3/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Visualforce</td>
                                             <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                            <td><Rating3_5/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Process Builder</td>
                                             <td> Morbi faucibus arcu accumsan lorem.</td>
-                                            <td><Rating4/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Lighting Design</td>
                                             <td>Vitae integer tempus condimentum.</td>
-                                            <td><Rating4/></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Flowbuilder</td>
                                             <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td><Rating3/></td>
+                                            <td></td>
                                         </tr>
                                     </tbody>
                                 </Table>
