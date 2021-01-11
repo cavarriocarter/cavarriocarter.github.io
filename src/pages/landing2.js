@@ -63,24 +63,24 @@ const Landing = (props) => (
                                     <Thead>
                                         <Tr>
                                             <Th>Language/<br></br>Framework</Th>
-                                            <Th>Description</Th>
+                                            <Th>Usage</Th>
                                             <Th>Rating</Th>
                                         </Tr>
                                     </Thead>
                                     <Tbody>
                                         <tr>
                                             <td>Python</td>
-                                            <td>Ante turpis integer aliquet porttitor.</td>
+                                            <td>Task Automation | Data Analysis & Visualization | Machine Learning</td>
                                             <td><Rating3/></td>
                                         </tr>
                                         <tr>
                                             <td>React</td>
-                                            <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                            <td>Javascript Library for Modern Web and Mobile App Development </td>
                                             <td><Rating4/></td>
                                         </tr>
                                         <tr>
                                             <td>Gatsby</td>
-                                            <td> Morbi faucibus arcu accumsan lorem.</td>
+                                            <td></td>
                                             <td><Rating4/></td>
                                         </tr>
                                         <tr>
