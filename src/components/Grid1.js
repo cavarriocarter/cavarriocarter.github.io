@@ -8,7 +8,7 @@ import PieChart1 from '../components/PieChart1'
 import PieChart2 from '../components/PieChart2'
 
 import { Box, Center } from "@chakra-ui/react"
-
+import BarChart1 from '../components/BarChart1'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -30,26 +30,15 @@ export default function FullWidthGrid() {
   return (
     <div className={classes.root}>
       <Grid container spacing={3}>
-        <Grid item xs>
+        <Grid item xs={12}>
           <Paper className={classes.paper} elevation={3}>
-            <h3>Industries Worked</h3>
+            <h3>Skills Used by Employer</h3>
             <Box overflow="hidden">
               <Center>
-                <PieChart1/>
+                <BarChart1/>
               </Center>
             </Box>
           </Paper>
-        </Grid>
-
-        <Grid item xs>
-          <Paper className={classes.paper} elevation={3}>
-            <h3>Job Functions</h3>
-              <Box overflow="hidden">
-                <Center>
-                  <PieChart2 />
-                </Center>
-              </Box>
-            </Paper>
         </Grid>
       </Grid>
     </div>

@@ -16,7 +16,7 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Cavarrio | IT Analyst"
+                    title="Cavarrio | Data Analyst & Web Developer"
                     meta={[
                         { name: 'description', content: 'Sample' },
                         { name: 'keywords', content: 'sample, something' },
@@ -51,8 +51,8 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Interests</h3>
-                                <p>Skills I would Like to develop further</p>
+                                <h3>Resume</h3>
+                                <p>Take a Look at My Work History</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
@@ -62,7 +62,7 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>A Brief Summary</h2>
                             </header>
-                            <p>Cavarrio Carter is a technical support engineer and software analyst in the Dallas-Fort Worth area. He attended the <a href="https://en.wikipedia.org/wiki/University_of_Louisiana_at_Monroe" target="_blank">University of Louisiana at Monroe</a> where he obtained a Bachelor of Arts in criminal justice with a minor in sociology. He then went on to obtain his Juris Doctor from <a href="https://en.wikipedia.org/wiki/Paul_M._Hebert_Law_Center" target="_blank">Louisiana State University Law School</a>. While at LSU, Cavarrio gained significant experience in advanced research and legal/technical writing.</p>
+                            <p>Cavarrio Carter is a technical support, software, and customer support analyst in the Dallas-Fort Worth area. He attended the <a href="https://en.wikipedia.org/wiki/University_of_Louisiana_at_Monroe" target="_blank">University of Louisiana at Monroe</a> where he obtained a Bachelor of Arts in criminal justice with a minor in sociology. He then went on to obtain his Juris Doctor from <a href="https://en.wikipedia.org/wiki/Paul_M._Hebert_Law_Center" target="_blank">Louisiana State University Law School</a>. While at LSU, Cavarrio gained significant experience in advanced research and legal/technical writing.</p>
 
                             <p>Cavarrio has 5+ years of professional experience, with his most recent experience being in the population health and energy management sectors, serving in roles requiring both technical and customer support skills. Cavarrio is a self-taught programmer with 1.5+ years of development/programming experience.</p>
                             <ul className="actions">
