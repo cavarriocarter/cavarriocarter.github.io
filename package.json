@@ -23,11 +23,9 @@
     "react": "^16.12.0",
     "react-bootstrap": "^1.4.3",
     "react-chartjs-2": "^2.11.1",
-    "react-circle-progress-bar": "^0.1.4",
     "react-dom": "^16.12.0",
     "react-gradient-progress": "^1.0.3",
     "react-helmet": "^5.2.1",
-    "react-rounded-image": "^2.0.11",
     "recharts": "^1.8.5",
     "semantic-ui-react": "^2.0.2",
     "victory": "^35.4.6"

@@ -11,14 +11,8 @@ import pic11 from '../assets/images/python1.png'
 
 import { Box, Center, Container, Image} from "@chakra-ui/react"
 import { makeStyles, withStyles } from '@material-ui/core/styles';
-import LinearProgress from '@material-ui/core/LinearProgress';
 
 import {CircleProgress} from 'react-gradient-progress'
-import Progress from 'react-circle-progress-bar'
-
-import ReactRoundedImage from "react-rounded-image";
-
-import Avatar from '@material-ui/core/Avatar';
 
 const useStyles = makeStyles((theme) => ({
   root: {
