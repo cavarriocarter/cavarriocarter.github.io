@@ -9,6 +9,7 @@ import PieChart2 from '../components/PieChart2'
 
 import { Box, Center } from "@chakra-ui/react"
 import BarChart1 from '../components/BarChart1'
+import PieChart from '../components/Doughnut1.js'
 
 const useStyles = makeStyles((theme) => ({
   root: {

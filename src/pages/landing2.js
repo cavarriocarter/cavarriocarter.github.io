@@ -7,31 +7,28 @@ import BannerLanding2 from '../components/BannerLanding2'
 import pic08 from '../assets/images/skills1.png'
 import pic09 from '../assets/images/skills4.png'
 import pic10 from '../assets/images/salesforce3.png'
+import pic11 from '../assets/images/python1.png'
 
-import {Image} from "@chakra-ui/react"
-import { Box, Center, Container } from "@chakra-ui/react"
+import { Box, Center, Container, Image} from "@chakra-ui/react"
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import LinearProgress from '@material-ui/core/LinearProgress';
 
-const BorderLinearProgress = withStyles((theme) => ({
-  root: {
-    height: 10,
-    borderRadius: 5,
-  },
-  colorPrimary: {
-    backgroundColor: theme.palette.grey[theme.palette.type === 'light' ? 200 : 700],
-  },
-  bar: {
-    borderRadius: 5,
-    backgroundColor: '#1a90ff',
-  },
-}))(LinearProgress);
+import {CircleProgress} from 'react-gradient-progress'
+import Progress from 'react-circle-progress-bar'
 
-const useStyles = makeStyles({
+import ReactRoundedImage from "react-rounded-image";
+
+import Avatar from '@material-ui/core/Avatar';
+
+const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
+    display: 'flex',
+    '& > *': {
+      margin: theme.spacing(1),
+    },
   },
-});
+}));
+
 
 const Landing = (props) => (
     <Layout>
@@ -86,39 +83,51 @@ const Landing = (props) => (
                                         <tr>
                                             <td>Python</td>
                                             <td>
-                                              <BorderLinearProgress variant="determinate" value={55} />
+                                              <CircleProgress percentage={55} width={120}/>
                                             </td>
-                                            <td>55/100</td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>React</td>
-                                            <td><BorderLinearProgress variant="determinate" value={70} /></td>
-                                            <td>70/100</td>
+                                            <td>
+                                              <CircleProgress percentage={70} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Gatsby</td>
-                                            <td><BorderLinearProgress variant="determinate" value={75} /></td>
-                                            <td>75/100</td>
+                                            <td>
+                                              <CircleProgress percentage={75} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>HTML</td>
-                                            <td><BorderLinearProgress variant="determinate" value={70} /></td>
-                                            <td>70/100</td>
+                                            <td>
+                                              <CircleProgress percentage={70} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>CSS</td>
-                                            <td><BorderLinearProgress variant="determinate" value={65} /></td>
-                                            <td>60/100</td>
+                                            <td>
+                                              <CircleProgress percentage={60} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Javascript</td>
-                                            <td><BorderLinearProgress variant="determinate" value={40} /></td>
-                                            <td>40/100</td>
+                                            <td>
+                                              <CircleProgress percentage={40} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>SQL</td>
-                                            <td><BorderLinearProgress variant="determinate" value={40} /></td>
-                                            <td>45/100</td>
+                                            <td>
+                                              <CircleProgress percentage={45} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -155,44 +164,58 @@ const Landing = (props) => (
                                         <tr>
                                             <td>Hardware</td>
                                             <td>
-                                              <BorderLinearProgress variant="determinate" value={90} />
+                                              <CircleProgress percentage={90} width={120}/>
                                             </td>
-                                            <td>90/100</td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Software</td>
-                                            <td><BorderLinearProgress variant="determinate" value={80} /></td>
-                                            <td>80/100</td>
+                                            <td>
+                                              <CircleProgress percentage={45} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>IoT</td>
-                                            <td><BorderLinearProgress variant="determinate" value={75} /></td>
-                                            <td>75/100</td>
+                                            <td>
+                                              <CircleProgress percentage={75} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Windows</td>
-                                            <td><BorderLinearProgress variant="determinate" value={70} /></td>
-                                            <td>70/100</td>
+                                            <td>
+                                              <CircleProgress percentage={45} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Linux</td>
-                                            <td><BorderLinearProgress variant="determinate" value={65} /></td>
-                                            <td>60/100</td>
+                                            <td>
+                                              <CircleProgress percentage={60} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Networking</td>
-                                            <td><BorderLinearProgress variant="determinate" value={85} /></td>
-                                            <td>85/100</td>
+                                            <td>
+                                              <CircleProgress percentage={85} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Databases</td>
-                                            <td><BorderLinearProgress variant="determinate" value={55} /></td>
-                                            <td>55/100</td>
+                                            <td>
+                                              <CircleProgress percentage={55} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Audio/Video</td>
-                                            <td><BorderLinearProgress variant="determinate" value={75} /></td>
-                                            <td>75/100</td>
+                                            <td>
+                                              <CircleProgress percentage={75} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -226,33 +249,45 @@ const Landing = (props) => (
                                     <tbody>
                                         <tr>
                                             <td>Apex</td>
-                                            <td><BorderLinearProgress variant="determinate" value={45} /></td>
-                                            <td>45/100</td>
+                                            <td>
+                                              <CircleProgress percentage={45} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Visualforce</td>
-                                            <td><BorderLinearProgress variant="determinate" value={65} /></td>
-                                            <td>65/100</td>
+                                            <td>
+                                              <CircleProgress percentage={65} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Process Builder</td>
-                                            <td><BorderLinearProgress variant="determinate" value={80} /></td>
-                                            <td>80/100</td>
+                                            <td>
+                                              <CircleProgress percentage={80} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Lighting Design</td>
-                                            <td><BorderLinearProgress variant="determinate" value={65} /></td>
-                                            <td>65/100</td>
+                                            <td>
+                                              <CircleProgress percentage={65} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>SFDX</td>
-                                            <td><BorderLinearProgress variant="determinate" value={65} /></td>
-                                            <td>65/100</td>
+                                            <td>
+                                              <CircleProgress percentage={65} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>Flowbuilder</td>
-                                            <td><BorderLinearProgress variant="determinate" value={55} /></td>
-                                            <td>55/100</td>
+                                            <td>
+                                              <CircleProgress percentage={55} width={120}/>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                     </tbody>
                                 </table>

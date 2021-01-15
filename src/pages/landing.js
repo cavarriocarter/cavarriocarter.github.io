@@ -16,7 +16,6 @@ import Chart from '../components/PieChart1'
 
 import { Image } from "@chakra-ui/react"
 import { Box, Center } from "@chakra-ui/react"
-import {Rating} from 'semantic-ui-react'
 
 
 const Landing = (props) => (
