@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
 import pic01 from '../assets/images/experience.jpeg'
-import pic02 from '../assets/images/skills2.png'
+import pic02 from '../assets/images/skills3.jpeg'
 import pic03 from '../assets/images/code.jpeg'
 import pic04 from '../assets/images/interests9.jpg'
 import pic06 from '../assets/images/pic06.jpg'
@@ -16,10 +16,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Cavarrio | Data Analyst & Web Developer"
+                    title="Cavarrio | Sotware Engineer & Web Developer "
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: "Cavarrio Carter's Homepage", content: 'About, Bio, Pages' },
+                        { name: 'Experience, Background, About, Info, Work History', content: 'sample, something' },
                     ]}
                 >
                 </Helmet>
@@ -45,7 +45,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Projects</h3>
-                                <p>See what I've been working on</p>
+                                <p>See what I can build for you</p>
                             </header>
                             <Link to="/landing3" className="link primary"></Link>
                         </article>

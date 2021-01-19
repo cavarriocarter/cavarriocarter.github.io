@@ -3,6 +3,8 @@ import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
 } from 'recharts';
 
+import Container from '@material-ui/core/Container';
+
 
 const data = [
   {
@@ -25,19 +27,24 @@ export default class Example extends PureComponent {
   render() {
     return (
 
-  <div style={{ width: '100%', height: 400 }}>
+  <div style={{ width: '100%', height: 600 }}>
     <ResponsiveContainer>
       <LineChart
         data={data}
         margin={{
-          top: 5, right: 30, left: 20, bottom: 5,
+          top: 5, right: 0, left: -25, bottom: 35,
         }}
       >
-        <CartesianGrid strokeDasharray="3 3" />
+        <CartesianGrid strokeDasharray="6 6" />
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
-        <Legend />
+              <Legend
+                iconType="circle"
+                iconSizealign="center"
+                layout="vertical"
+                iconSize="10"
+                />
         <Line type="monotone" dataKey="Email" stroke="#8884d8" activeDot={{ r: 8 }} />
         <Line type="monotone" dataKey="Software" stroke="#008a09" />
         <Line type="monotone" dataKey="Hardware" stroke="#d9b800" />
@@ -47,6 +54,7 @@ export default class Example extends PureComponent {
 
       </LineChart>
     </ResponsiveContainer>
+
   </div>
     );
   }

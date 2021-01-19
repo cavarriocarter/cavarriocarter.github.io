@@ -30,7 +30,6 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
     backgroundColor: '#3b3b3b',
     marginBottom: '25px',
-
   },
   chart: {
   }
@@ -41,7 +40,7 @@ export default function FullWidthGrid() {
 
   return (
     <div className={classes.root}>
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" disableGutters="true">
       <Grid container spacing={3}>
         <Grid item xs={12}>
           <Paper className={classes.paper} elevation={3}>
@@ -54,7 +53,7 @@ export default function FullWidthGrid() {
           </Grid>
         </Grid>
         </Container>
-        <Container maxWidth="lg">
+        <Container maxWidth="lg" disableGutters="true">
         <Grid item xs={12}>
           <Paper className={classes.paper} elevation={3}>
             <h3>Skills Used by Employer: Percent of Time Used</h3>
