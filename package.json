@@ -28,7 +28,8 @@
     "react-helmet": "^5.2.1",
     "recharts": "^1.8.5",
     "semantic-ui-react": "^2.0.2",
-    "victory": "^35.4.6"
+    "victory": "^35.4.6",
+    "victory-native": "^35.3.1"
   },
   "keywords": [
     "gatsby"
