@@ -40,7 +40,7 @@ export default function FullWidthGrid() {
 
   return (
     <div className={classes.root}>
-      <Container maxWidth="lg" disableGutters="true">
+      <Container maxWidth="xl" disableGutters="true">
       <Grid container spacing={3}>
         <Grid item xs={12}>
           <Paper className={classes.paper} elevation={3}>
@@ -53,7 +53,7 @@ export default function FullWidthGrid() {
           </Grid>
         </Grid>
         </Container>
-        <Container maxWidth="lg" disableGutters="true">
+        <Container maxWidth="xl" disableGutters="true">
         <Grid item xs={12}>
           <Paper className={classes.paper} elevation={3}>
             <h3>Skills Used by Employer: Percent of Time Used</h3>

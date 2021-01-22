@@ -10,7 +10,7 @@ const Footer = (props) => (
                 <li><a href="https://www.linkedin.com/in/cavarrio-carter/" target="_blank" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; Cavarrio Carter</li><li>Address: Dallas, TX 75150</li>
+                <li>&copy; Cavarrio Carter</li><li>Address: Shreveport, LA</li>
             </ul>
         </div>
     </footer>

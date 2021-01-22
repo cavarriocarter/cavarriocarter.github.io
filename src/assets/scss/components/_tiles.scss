@@ -6,6 +6,8 @@
 
 /* Tiles */
 
+//adjust tile size by manipulating width here
+
 .tiles {
   @include vendor('display', 'flex');
   @include vendor('flex-wrap', 'wrap');
@@ -37,7 +39,7 @@
     min-height: 23em;
     overflow: hidden;
     position: relative;
-    width: 40%;
+    width: 50%;
 
     .image {
       display: none;
@@ -105,9 +107,11 @@
       opacity: 0;
     }
 
+
+//adjust tile size by manipulating width here
     &:nth-child(4n - 1),
     &:nth-child(4n - 2) {
-      width: 60%;
+      width: 50%;
     }
 
     &:nth-child(6n - 5) {
