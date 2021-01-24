@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/experience.jpeg'
+import pic01 from '../assets/images/work2.jpg'
 import pic02 from '../assets/images/skills3.jpeg'
 import pic03 from '../assets/images/code.jpeg'
 import pic04 from '../assets/images/interests9.jpg'
@@ -48,13 +48,6 @@ class HomeIndex extends React.Component {
                                 <p>See What I've been Working On</p>
                             </header>
                             <Link to="/landing3" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Resume</h3>
-                                <p>Take a Look at My Work History</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">

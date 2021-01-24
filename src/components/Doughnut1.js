@@ -25,6 +25,7 @@ export default class Example extends PureComponent {
       <ResponsiveContainer width="100%" height={400}>
       <PieChart>
         <Pie dataKey="value" isAnimationActive={false} data={data01} outerRadius={80} fill="#8884d8" label />
+        <Pie dataKey="value" isAnimationActive={false} data={data01} outerRadius={80} fill="#8884d8" label />
         <Tooltip />
       </PieChart>
       </ResponsiveContainer>

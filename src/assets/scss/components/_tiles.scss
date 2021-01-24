@@ -39,7 +39,7 @@
     min-height: 23em;
     overflow: hidden;
     position: relative;
-    width: 50%;
+    width: 100%;
 
     .image {
       display: none;
@@ -111,7 +111,7 @@
 //adjust tile size by manipulating width here
     &:nth-child(4n - 1),
     &:nth-child(4n - 2) {
-      width: 50%;
+      width: 100%;
     }
 
     &:nth-child(6n - 5) {
@@ -160,9 +160,10 @@
     }
   }
 
+//change here to ensure each card is even
   @include breakpoint(medium) {
     article {
-      width: 50% !important;
+      width: 100% !important;
     }
   }
 

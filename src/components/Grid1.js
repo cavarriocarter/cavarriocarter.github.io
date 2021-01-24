@@ -8,7 +8,6 @@ import Container from '@material-ui/core/Container';
 import Modal from '../components/GraphModal2'
 import Modal2 from '../components/GraphModal'
 
-
 import PieChart1 from '../components/PieChart1'
 import PieChart2 from '../components/PieChart2'
 
@@ -18,7 +17,6 @@ import Doughnut from '../components/Doughnut1'
 import Doughnut2 from '../components/Doughnut2'
 
 import Line from '../components/Line1'
-
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -41,17 +39,19 @@ export default function FullWidthGrid() {
   return (
     <div className={classes.root}>
       <Container maxWidth="xl" disableGutters="true">
+        <Paper className={classes.paper} elevation={3}>
+
       <Grid container spacing={3}>
         <Grid item xs={12}>
-          <Paper className={classes.paper} elevation={3}>
             <h3>Industries Worked</h3>
               <Center>
                 <Doughnut/>
               </Center>
             <Modal></Modal>
-          </Paper>
           </Grid>
         </Grid>
+      </Paper>
+
         </Container>
         <Container maxWidth="xl" disableGutters="true">
         <Grid item xs={12}>

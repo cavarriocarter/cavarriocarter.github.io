@@ -17,7 +17,7 @@ class CustomLabel extends React.Component {
           cornerRadius={50}
           flyoutWidth={100}
           flyoutHeight={100}
-          flyoutStyle={{ fill: "gray" }}
+          flyoutStyle={{ fill: "black" }}
           activateData={false}
         />
       </g>
@@ -33,7 +33,7 @@ const PieChart1 = () => (
   <VictoryPie
     innerRadius={100}
     labelRadius={120}
-    labelComponent={<CustomLabel />}
+    labelComponent={<CustomLabel />, <VictoryTooltip />}
     colorScale={["tomato", "orange", "cyan", "gold", "navy" ]}
     data={[
       {x: "Legal", y: 15},
@@ -45,7 +45,7 @@ const PieChart1 = () => (
     animate={{duration: 2000}}
     style={{ labels: { fill: "white", fontSize: 6, fontWeight: "bold" } }}
     containerComponent={
-      <VictoryContainer
+      <VictoryContainer height='400' width='400'
         responsive={true}/>
     }
   />
