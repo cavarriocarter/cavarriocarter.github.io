@@ -57,7 +57,6 @@ export default function WorkCard1() {
 
   return (
     <div className={classes.root}>
-          <Paper className={classes.paper} elevation={3}>
             <Grid container spacing={3}>
               <Grid item xs={12} sm={6}>
                 <Paper className={classes.paper3} elevation={3}>
@@ -102,7 +101,6 @@ export default function WorkCard1() {
                   </Container>
                 </Grid>
               </Grid>
-            </Paper>
 
     </div>
   );
