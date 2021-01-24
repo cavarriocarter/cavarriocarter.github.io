@@ -7,8 +7,8 @@ const BannerLanding = (props) => (
                 <h1>Skills</h1>
             </header>
             <div className="content">
-                <blockquote>“We cannot solve our problems with the same thinking we used to create them.”<br />
-                - Albert Einstein</blockquote>
+                <p>“We cannot solve our problems with the same thinking we used to create them.”<br />
+                - Albert Einstein</p>
             </div>
         </div>
     </section>

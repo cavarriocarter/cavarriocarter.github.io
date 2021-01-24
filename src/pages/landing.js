@@ -20,6 +20,8 @@ import Chart from '../components/PieChart1'
 
 import { Image, Grid, GridItem } from "@chakra-ui/react"
 import { Box, Center } from "@chakra-ui/react"
+import Divider from '@material-ui/core/Divider';
+
 
 const Landing = (props) => (
     <Layout>
@@ -44,11 +46,11 @@ const Landing = (props) => (
             <section id="two" className="inner">
                 <section>
                       <WorkCard1/>
+                        <Divider/>
+
                       <WorkCard2 />
+                        <Divider/>
                       <WorkCard3 />
-
-
-
                 </section>
             </section>
         </div>

@@ -7,8 +7,8 @@ const BannerLanding = (props) => (
                 <h1>Experience</h1>
             </header>
             <div className="content">
-                <blockquote>When you can do the common things of life in an uncommon way, you will command the attention of the world.<br />
-                - George Washington Carver</blockquote>
+                <p>"When you can do the common things of life in an uncommon way, you will command the attention of the world."<br />
+                - George Washington Carver</p>
             </div>
         </div>
     </section>

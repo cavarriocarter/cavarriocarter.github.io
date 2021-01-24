@@ -30,7 +30,8 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
     backgroundColor: '#bdbdbd',
     marginTop: '25px',
-    marginBottom: '25px'
+    marginBottom: '25px',
+    display: 'flex',
   },
 
   paper2: {
@@ -39,6 +40,14 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
     backgroundColor: '#3b3b3b',
     marginTop: '25px',
+  },
+  paper3: {
+    padding: theme.spacing(3),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+    backgroundColor: '#bdbdbd',
+    marginTop: '25px',
+    paddingBottom: '137px',
   },
   chart: {
   }
@@ -52,7 +61,7 @@ export default function WorkCard1() {
           <Paper className={classes.paper} elevation={3}>
             <Grid container spacing={3}>
               <Grid item xs={12} sm={6}>
-                <Paper className={classes.paper} elevation={3}>
+                <Paper className={classes.paper3} elevation={3}>
                   <Container>
                     <Avatar1></Avatar1>
 
@@ -60,6 +69,7 @@ export default function WorkCard1() {
                         <ul className="actions">
                             <li><Link to="https://www.ncr.com/payments" className="button" target="_blank">Learn more</Link></li>
                         </ul>
+
                   </Container>
                 </Paper>
               </Grid>

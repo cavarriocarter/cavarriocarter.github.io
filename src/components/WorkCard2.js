@@ -40,6 +40,14 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#3b3b3b',
     marginTop: '25px',
   },
+  paper3: {
+    padding: theme.spacing(3),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+    backgroundColor: '#bdbdbd',
+    marginTop: '25px',
+    paddingBottom: '173px',
+  },
   chart: {
   }
 }));
@@ -52,7 +60,7 @@ export default function WorkCard1() {
           <Paper className={classes.paper} elevation={3}>
             <Grid container spacing={3}>
               <Grid item xs={12} sm={6}>
-                <Paper className={classes.paper} elevation={3}>
+                <Paper className={classes.paper3} elevation={3}>
                   <Container>
                     <Avatar2></Avatar2>
 
