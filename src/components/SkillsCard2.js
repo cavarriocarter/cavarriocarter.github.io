@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   paper2: {
-    padding: theme.spacing(3),
+    padding: theme.spacing(1),
     textAlign: 'center',
     color: theme.palette.text.secondary,
     backgroundColor: '#3b3b3b',
@@ -81,8 +81,6 @@ export default function WorkCard1() {
                                 <tr>
                                     <th>Skill</th>
                                     <th>Rating</th>
-                                    <th>
-                                    </th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -91,56 +89,48 @@ export default function WorkCard1() {
                                     <td>
                                       <CircleProgress percentage={90} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><SoftwareAvatar></SoftwareAvatar></td>
                                     <td>
                                       <CircleProgress percentage={65} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><IOTAvatar></IOTAvatar></td>
                                     <td>
                                       <CircleProgress percentage={75} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><WindowsAvatar></WindowsAvatar></td>
                                     <td>
                                       <CircleProgress percentage={70} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><LinuxAvatar></LinuxAvatar></td>
                                     <td>
                                       <CircleProgress percentage={60} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><NetworkingAvatar></NetworkingAvatar></td>
                                     <td>
                                       <CircleProgress percentage={85} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><DatabasesAvatar></DatabasesAvatar></td>
                                     <td>
                                       <CircleProgress percentage={55} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><AV_Avatar></AV_Avatar></td>
                                     <td>
                                       <CircleProgress percentage={75} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>

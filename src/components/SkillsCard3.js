@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   paper2: {
-    padding: theme.spacing(3),
+    padding: theme.spacing(1),
     textAlign: 'center',
     color: theme.palette.text.secondary,
     backgroundColor: '#3b3b3b',
@@ -79,8 +79,6 @@ export default function WorkCard1() {
                                 <tr>
                                     <th>Skill</th>
                                     <th>Rating</th>
-                                    <th>
-                                    </th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -89,42 +87,36 @@ export default function WorkCard1() {
                                     <td>
                                       <CircleProgress percentage={50} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><VisualforceAvatar></VisualforceAvatar></td>
                                     <td>
                                       <CircleProgress percentage={65} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><ProcessBuilderAvatar></ProcessBuilderAvatar></td>
                                     <td>
                                       <CircleProgress percentage={80} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><LightningDesignAvatar></LightningDesignAvatar></td>
                                     <td>
                                       <CircleProgress percentage={65} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><SFDXAvatar></SFDXAvatar></td>
                                     <td>
                                       <CircleProgress percentage={65} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><FlowbuilderAvatar></FlowbuilderAvatar></td>
                                     <td>
                                       <CircleProgress percentage={55} width={90}/>
                                     </td>
-                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>

@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   paper2: {
-    padding: theme.spacing(3),
+    padding: theme.spacing(1),
     textAlign: 'center',
     color: theme.palette.text.secondary,
     backgroundColor: '#3b3b3b',
@@ -81,8 +81,6 @@ export default function WorkCard1() {
                               <tr>
                                   <th>Language/Framework</th>
                                   <th>Rating</th>
-                                  <th>
-                                  </th>
                               </tr>
                           </thead>
                           <tbody>

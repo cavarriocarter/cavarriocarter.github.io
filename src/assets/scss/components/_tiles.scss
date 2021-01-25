@@ -111,7 +111,7 @@
 //adjust tile size by manipulating width here
     &:nth-child(4n - 1),
     &:nth-child(4n - 2) {
-      width: 100%;
+      width: 50%;
     }
 
     &:nth-child(6n - 5) {
