@@ -89,55 +89,55 @@ export default function WorkCard1() {
                               <tr>
                                   <td><PyAvatar></PyAvatar></td>
                                   <td>
-                                    <CircleProgress percentage={55} width={120}/>
+                                    <CircleProgress percentage={55} width={90}/>
                                   </td>
                               </tr>
                               <tr>
                                   <td><ReactAvatar></ReactAvatar></td>
                                   <td>
-                                    <CircleProgress percentage={70} width={120}/>
+                                    <CircleProgress percentage={70} width={90}/>
                                   </td>
                               </tr>
                               <tr>
                                   <td><GatsbyAvatar></GatsbyAvatar></td>
                                   <td>
-                                    <CircleProgress percentage={75} width={120}/>
+                                    <CircleProgress percentage={75} width={90}/>
                                   </td>
                               </tr>
                               <tr>
                                   <td><GITAvatar></GITAvatar></td>
                                   <td>
-                                    <CircleProgress percentage={60} width={120}/>
+                                    <CircleProgress percentage={60} width={90}/>
                                   </td>
                               </tr>
                               <tr>
                                   <td><HTMLAvatar></HTMLAvatar></td>
                                   <td>
-                                    <CircleProgress percentage={70} width={120}/>
+                                    <CircleProgress percentage={70} width={90}/>
                                   </td>
                               </tr>
                               <tr>
                                   <td><CSSAvatar></CSSAvatar></td>
                                   <td>
-                                    <CircleProgress percentage={60} width={120}/>
+                                    <CircleProgress percentage={60} width={90}/>
                                   </td>
                               </tr>
                               <tr>
                                   <td><SCSSAvatar></SCSSAvatar></td>
                                   <td>
-                                    <CircleProgress percentage={40} width={120}/>
+                                    <CircleProgress percentage={40} width={90}/>
                                   </td>
                               </tr>
                               <tr>
                                   <td><JSAvatar></JSAvatar></td>
                                   <td>
-                                    <CircleProgress percentage={50} width={120}/>
+                                    <CircleProgress percentage={50} width={90}/>
                                   </td>
                               </tr>
                               <tr>
                                   <td><SQLAvatar></SQLAvatar></td>
                                   <td>
-                                    <CircleProgress percentage={45} width={120}/>
+                                    <CircleProgress percentage={45} width={90}/>
                                   </td>
                               </tr>
                           </tbody>

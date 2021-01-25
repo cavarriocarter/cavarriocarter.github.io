@@ -18,6 +18,10 @@ const useStyles = makeStyles((theme) => ({
     width: theme.spacing(3),
     height: theme.spacing(3),
   },
+  small: {
+    width: theme.spacing(5),
+    height: theme.spacing(5),
+  },
   large: {
     width: theme.spacing(7),
     height: theme.spacing(7),
@@ -30,8 +34,8 @@ export default function ImageAvatars() {
   return (
     <div className={classes.root}>
        <Avatar alt="Remy Sharp" src={pic08} className={classes.large} />
-        <h5>Python
-        </h5>
+        <h6>Python
+        </h6>
     </div>
   );
 }

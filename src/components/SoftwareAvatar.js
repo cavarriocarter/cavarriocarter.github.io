@@ -30,8 +30,8 @@ export default function ImageAvatars() {
   return (
     <div className={classes.root}>
        <Avatar alt="Remy Sharp" src={pic08} className={classes.large} />
-        <h5>Software Troubleshooting
-        </h5>
+        <h6>Software Troubleshooting
+        </h6>
     </div>
   );
 }

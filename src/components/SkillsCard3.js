@@ -87,42 +87,42 @@ export default function WorkCard1() {
                                 <tr>
                                     <td><ApexAvatar></ApexAvatar></td>
                                     <td>
-                                      <CircleProgress percentage={50} width={120}/>
+                                      <CircleProgress percentage={50} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><VisualforceAvatar></VisualforceAvatar></td>
                                     <td>
-                                      <CircleProgress percentage={65} width={120}/>
+                                      <CircleProgress percentage={65} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><ProcessBuilderAvatar></ProcessBuilderAvatar></td>
                                     <td>
-                                      <CircleProgress percentage={80} width={120}/>
+                                      <CircleProgress percentage={80} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><LightningDesignAvatar></LightningDesignAvatar></td>
                                     <td>
-                                      <CircleProgress percentage={65} width={120}/>
+                                      <CircleProgress percentage={65} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><SFDXAvatar></SFDXAvatar></td>
                                     <td>
-                                      <CircleProgress percentage={65} width={120}/>
+                                      <CircleProgress percentage={65} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><FlowbuilderAvatar></FlowbuilderAvatar></td>
                                     <td>
-                                      <CircleProgress percentage={55} width={120}/>
+                                      <CircleProgress percentage={55} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>

@@ -89,56 +89,56 @@ export default function WorkCard1() {
                                 <tr>
                                     <td><HardwareAvatar></HardwareAvatar></td>
                                     <td>
-                                      <CircleProgress percentage={90} width={120}/>
+                                      <CircleProgress percentage={90} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><SoftwareAvatar></SoftwareAvatar></td>
                                     <td>
-                                      <CircleProgress percentage={65} width={120}/>
+                                      <CircleProgress percentage={65} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><IOTAvatar></IOTAvatar></td>
                                     <td>
-                                      <CircleProgress percentage={75} width={120}/>
+                                      <CircleProgress percentage={75} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><WindowsAvatar></WindowsAvatar></td>
                                     <td>
-                                      <CircleProgress percentage={70} width={120}/>
+                                      <CircleProgress percentage={70} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><LinuxAvatar></LinuxAvatar></td>
                                     <td>
-                                      <CircleProgress percentage={60} width={120}/>
+                                      <CircleProgress percentage={60} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><NetworkingAvatar></NetworkingAvatar></td>
                                     <td>
-                                      <CircleProgress percentage={85} width={120}/>
+                                      <CircleProgress percentage={85} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><DatabasesAvatar></DatabasesAvatar></td>
                                     <td>
-                                      <CircleProgress percentage={55} width={120}/>
+                                      <CircleProgress percentage={55} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><AV_Avatar></AV_Avatar></td>
                                     <td>
-                                      <CircleProgress percentage={75} width={120}/>
+                                      <CircleProgress percentage={75} width={90}/>
                                     </td>
                                     <td></td>
                                 </tr>
