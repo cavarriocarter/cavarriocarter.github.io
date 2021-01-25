@@ -6,6 +6,8 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
+import { makeStyles } from '@material-ui/core/styles';
+
 
 import Grid1 from '../components/Grid1'
 import WorkCard1 from '../components/WorkCard1'
@@ -20,14 +22,14 @@ import Chart from '../components/PieChart1'
 
 import { Image, Grid, GridItem } from "@chakra-ui/react"
 import { Box, Center } from "@chakra-ui/react"
-import Divider from '@material-ui/core/Divider';
-
+import Divider from '../components/Divider.js'
 
 const Landing = (props) => (
+
     <Layout>
         <Helmet>
             <title>Cavarrio | Experience </title>
-            <meta name="Cavarrio Carter's Background" content="Landing Page" />
+            <meta name="Cavarrio Carter's Background and Work History" content="Experience/Work History/Background Page" />
         </Helmet>
 
         <BannerLanding />
@@ -35,10 +37,10 @@ const Landing = (props) => (
         <div id="main">
             <section id="one">
                 <div className="inner">
-                    <header className="major">
+                  <header class="headerCenter">
                         <h2>Quick Overview</h2>
-                    </header>
-                    <div className="box">
+                  </header>
+                    <div>
                         <p>I am a well-versed professional with experience in a variety of fields including telecommunications, information technology, and energy management. In addition to my experience in corporate environments, I have also worked for several small to medium-sized companies. My experience has afforded me the opportunity to develop a wide range of skills while using technology to accomplish organizational/departmental goals and maximize efficiency.</p>
                     </div>
                 </div>
@@ -46,10 +48,15 @@ const Landing = (props) => (
             <section id="two" className="inner">
                 <section>
                       <WorkCard1/>
-                        <Divider/>
-
+                </section>
+            </section>
+            <section id="two" className="inner">
+                <section>
                       <WorkCard2 />
-                        <Divider/>
+                </section>
+            </section>
+            <section id="two" className="inner">
+                <section>
                       <WorkCard3 />
                 </section>
             </section>

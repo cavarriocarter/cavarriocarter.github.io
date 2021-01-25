@@ -45,9 +45,9 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(3),
     textAlign: 'center',
     color: theme.palette.text.secondary,
-    backgroundColor: '#bdbdbd',
+    backgroundColor: '#828282',
     marginTop: '25px',
-    paddingBottom: '101px',
+    height: '100%',
   },
   chart: {
   }
@@ -62,7 +62,7 @@ export default function WorkCard1() {
               <Grid item xs={12} sm={6}>
                 <Paper className={classes.paper3} elevation={3}>
                   <Container>
-                    <Avatar1></Avatar1>
+                    <a href="https://www.ncr.com/payments" target="_blank"><Avatar1></Avatar1></a>
 
                       <p><br></br>An American software company, managed and professional services, consulting and technology company that also makes self-service kiosks, point-of-sale terminals, automated teller machines, check processing systems, and barcode scanners.</p>
                         <ul className="actions">
@@ -74,7 +74,7 @@ export default function WorkCard1() {
               </Grid>
 
                 <Grid item xs={12} sm={6}>
-                  <Paper className={classes.paper} elevation={3}>
+                  <Paper className={classes.paper3} elevation={3}>
                   <Container>
                       <h5>Responsibilities</h5>
                         <ul className="alt">

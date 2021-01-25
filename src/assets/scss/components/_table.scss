@@ -29,6 +29,8 @@
 
 		td {
 			padding: 0.75em 0.75em;
+			align-items: left;
+			text-align: left;
 		}
 
 		th {
@@ -38,6 +40,7 @@
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
 		}
+
 
 		thead {
 			border-bottom: solid 2px _palette(border);

@@ -9,6 +9,7 @@ exports.components = {
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-landing-2-js": () => import("./../../../src/pages/landing2.js" /* webpackChunkName: "component---src-pages-landing-2-js" */),
   "component---src-pages-landing-3-js": () => import("./../../../src/pages/landing3.js" /* webpackChunkName: "component---src-pages-landing-3-js" */),
-  "component---src-pages-landing-js": () => import("./../../../src/pages/landing.js" /* webpackChunkName: "component---src-pages-landing-js" */)
+  "component---src-pages-landing-js": () => import("./../../../src/pages/landing.js" /* webpackChunkName: "component---src-pages-landing-js" */),
+  "component---src-pages-projects-js": () => import("./../../../src/pages/projects.js" /* webpackChunkName: "component---src-pages-projects-js" */)
 }
 

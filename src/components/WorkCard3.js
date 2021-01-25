@@ -17,7 +17,7 @@ import { Box, Center, Container } from "@chakra-ui/react"
 import { Image } from "@chakra-ui/react"
 
 import Avatar3 from '../components/Avatar3'
-import Doughnut1 from '../components/Doughnut1'
+import Doughnut3 from '../components/Doughnut3'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -30,7 +30,8 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
     backgroundColor: '#bdbdbd',
     marginTop: '25px',
-    marginBottom: '25px'
+    marginBottom: '25px',
+    height: '100%'
   },
 
   paper2: {
@@ -44,9 +45,9 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(3),
     textAlign: 'center',
     color: theme.palette.text.secondary,
-    backgroundColor: '#bdbdbd',
+    backgroundColor: '#828282',
     marginTop: '25px',
-    paddingBottom: '137px',
+    height: '100%'
   },
   chart: {
   }
@@ -61,7 +62,7 @@ export default function WorkCard1() {
               <Grid item xs={12} sm={6}>
                 <Paper className={classes.paper3} elevation={3}>
                   <Container>
-                    <Avatar3></Avatar3>
+                    <a href="https://www.medecision.com/" target="_blank"><Avatar3></Avatar3></a>
 
                       <p><br></br>Medecision is an integrated health management company supporting virtual care and digital health.</p>
                         <ul className="actions">
@@ -72,8 +73,8 @@ export default function WorkCard1() {
               </Grid>
 
                 <Grid item xs={12} sm={6}>
-                  <Container>
-                    <Paper className={classes.paper} elevation={3}>
+                    <Paper className={classes.paper3} elevation={3}>
+                      <Container>
                       <h5>Responsibilities</h5>
                         <ul className="alt">
                           <li>SaaS & Technical Support</li>
@@ -83,8 +84,8 @@ export default function WorkCard1() {
                           <li>Use/Development of Automation Scripts</li>
                           <li>JIRA</li>
                         </ul>
+                        </Container>
                       </Paper>
-                  </Container>
                 </Grid>
 
 
@@ -95,7 +96,7 @@ export default function WorkCard1() {
                       <Container>
                       <h5>Skills Used</h5>
                         <Grid item xs={12}>
-                            <Doughnut1/>
+                            <Doughnut3/>
                         </Grid>
                       </Container>
                     </Paper>

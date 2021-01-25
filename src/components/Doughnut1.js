@@ -4,17 +4,11 @@ import {
 } from 'recharts';
 
 const data01 = [
-  { name: 'Law', value: 15 },
-  { name: 'Tech/IT/Telecommunciations', value: 55 },
-  { name: 'Insurance', value: 20 },
-  { name: 'Energy Management', value: 10 },
+  { name: 'Email', value: 35 },
+  { name: 'Phone', value: 25 },
+  { name: 'Software Troubleshooting', value: 15 },
+  { name: 'Reporting', value: 25 },
 
-];
-
-const data02 = [
-  { name: 'Group A', value: 2400 }, { name: 'Group B', value: 4567 },
-  { name: 'Group C', value: 1398 }, { name: 'Group D', value: 9800 },
-  { name: 'Group E', value: 3908 }, { name: 'Group F', value: 4800 },
 ];
 
 export default class Example extends PureComponent {
@@ -24,7 +18,6 @@ export default class Example extends PureComponent {
     return (
       <ResponsiveContainer width="100%" height={400}>
       <PieChart>
-        <Pie dataKey="value" isAnimationActive={false} data={data01} outerRadius={80} fill="#8884d8" label />
         <Pie dataKey="value" isAnimationActive={false} data={data01} outerRadius={80} fill="#8884d8" label />
         <Tooltip />
       </PieChart>
